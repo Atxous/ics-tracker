@@ -53,7 +53,7 @@ links = {'https://ics.uci.edu/academics/impact/student-awards-honors/', 'https:/
          'https://ics.uci.edu/admissions-information-and-computer-science/admissions-process/', 'http://twitter.com/UCIbrenICS', None, '/accessibility-statement/', 
          'https://ics.uci.edu/academics/impact/academic-placements-of-alumni/', 'https://ics.uci.edu/computing-research/', 'https://ics.uci.edu/alumni/industry-advisory-council/', 
          'https://www.linkedin.com/company/uc-irvine-information-and-computer-sciences', 'https://ics.uci.edu/academics/graduate-programs#professionalprograms', 'https://ics.uci.edu/academics/career-development/', 
-         'http://www.ics.uci.edu/~thornton/ics45c/', 'https://hpi.ics.uci.edu/', 'https://ics.uci.edu/follow-us/', 'https://ics.uci.edu/wp-content/uploads/2024/02/tutoring_Feb1_2024_CS364.png'}
+         'http://www.ics.uci.edu/~thornton/ics45c/', 'https://hpi.ics.uci.edu/', 'https://ics.uci.edu/follow-us/'}
 
 url = "https://ics.uci.edu/academics/undergraduate-academic-advising/ics-credit-by-exam/"
 
@@ -77,7 +77,7 @@ def check_for_new_links():
         
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('D:/github local repos/ics-tracker/index.html')
 
 @socketio.on('connect')
 def handle_connect():
